@@ -1,11 +1,28 @@
 /* common style for whole website */
 body {
-    font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
 }
+
+.cart-button {
+  background-color: #2A1E59;
+  padding: 15px 25px;
+
+}
+p {
+  color: gray;
+  font-size: 17px;
+}
+h1 {
+  font-size: 60px;
+}
+
 /* navbar and header */
-.backpack-head img{
-  width: 300px; 
+.logo-png {
+  width: 280px;
 }
-.backpack-head{
-    background-color: #FFFFF4;
+.backpack-head {
+  background-color: #FFFFF4;
+}
+.selling-picture {
+  width: 400px;
 }
