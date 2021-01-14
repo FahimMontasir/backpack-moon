@@ -1,4 +1,11 @@
 /* common style for whole website */
 body {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+/* navbar and header */
+.backpack-head img{
+  width: 300px; 
+}
+.backpack-head{
+    background-color: #FFFFF4;
 }
