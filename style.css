@@ -8,20 +8,25 @@ body {
   padding: 15px 25px;
 
 }
+
 p {
   color: gray;
 }
+
 h1 {
   font-size: 60px;
   font-weight: bold;
 }
+
 .title-color {
-  color:#2F4369 ;
+  color: #2F4369;
 }
+
 span {
   color: #76C27E;
   font-size: 40px;
 }
+
 h2 {
   color: #2A1E59;
   font-weight: bold;
@@ -31,19 +36,42 @@ h2 {
 .logo-png {
   width: 280px;
 }
+
 .backpack-head {
   background-color: #FFFFF4;
 }
+
 .selling-picture {
   width: 95%;
 }
-/* about us information */
+
+/* about us information under nav */
 .about-us-info img {
   width: 100px;
 }
+
 @media (max-width: 600px) {
-  .info-title , .info-pic {
-      display: flex;
-      justify-content: center;
+
+  .info-title,
+  .info-pic {
+    display: flex;
+    justify-content: center;
   }
+}
+
+/* subscriction section above footer */
+.subs-btn {
+  background-image: linear-gradient(to top, #FF4F95, #f16ea3);
+  padding: 8px 14px;
+}
+
+.moon-subs {
+  height: 300px;
+  background-image: linear-gradient(to bottom, #FCEAE8, #f3d5d2);
+
+}
+
+/* footer  */
+footer {
+  letter-spacing: 5px;
 }

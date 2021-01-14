@@ -36,13 +36,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item pe-4">
-                            <a class="nav-link" href="#">Product</a>
+                            <a class="nav-link" href="#products">Product</a>
                         </li>
                         <li class="nav-item pe-4">
-                            <a class="nav-link" href="#">About us</a>
+                            <a class="nav-link" href="#about-us">About us</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="#">Contact us</a>
+                            <a class="nav-link" href="#contact-us">Contact us</a>
                         </li>
                     </ul>
                 </div>
@@ -67,7 +67,7 @@
     </header>
     <main class="container">
         <!-- about us section -->
-        <section class="mt-5">
+        <section class="mt-5" id="about-us">
             <div class="row">
                 <div class="col-md-5 about-us-info">
 
@@ -122,7 +122,7 @@
             </div>
         </section>
         <!-- all casual backpack items -->
-        <section>
+        <section id="products">
             <h2 class="m-5 ms-0">Casual Backpack</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -177,13 +177,13 @@
         </section>
         <!-- all travel backpack items -->
         <section>
-            <h2 class="m-5 ms-0">Casual Backpack</h2>
+            <h2 class="m-5 ms-0">Travel Backpack</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card border-0 shadow rounded-3 h-100">
-                        <img src="images/casual1.png" class="card-img-top p-3" alt="...">
+                        <img src="images/travel1.png" class="card-img-top p-3" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title title-color">Nike Sportswear Hayward </h5>
+                            <h5 class="card-title title-color">Travel Sport </h5>
                             <p class="card-text">Lorem Ipsum is simply dummy text of the
                                 printing and typesetting industry.</p>
                         </div>
@@ -197,9 +197,9 @@
                 </div>
                 <div class="col">
                     <div class="card border-0 shadow rounded-3 h-100">
-                        <img src="images/casual2.png" class="card-img-top p-3" alt="...">
+                        <img src="images/travel2.png" class="card-img-top p-3" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title title-color">School backpack</h5>
+                            <h5 class="card-title title-color">Jack Wolfskin West Highland </h5>
                             <p class="card-text">Lorem Ipsum is simply dummy text of the
                                 printing and typesetting industry.</p>
                         </div>
@@ -213,9 +213,9 @@
                 </div>
                 <div class="col">
                     <div class="card border-0 shadow rounded-3 h-100">
-                        <img src="images/casual3.png" class="card-img-top p-3" alt="...">
+                        <img src="images/travel3.png" class="card-img-top p-3" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title title-color">CityLite Security Backpack </h5>
+                            <h5 class="card-title title-color">Hiking Trekking Bag Camping </h5>
                             <p class="card-text">Lorem Ipsum is simply dummy text of the
                                 printing and typesetting industry.</p>
                         </div>
@@ -229,12 +229,53 @@
                 </div>
             </div>
         </section>
+        <!-- this section is for bonus marks under all products and it is checkbox -->
+        <section class="mt-5">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
+                    <img class="w-50 " src="images/public-choice.png" alt="">
+                </div>
+                <div class="col-md-6 ps-3">
+                    <h2 class="pb-3">Let us know your choice...</h2>
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                        <label class="form-check-label" for="flexSwitchCheckDefault">Red bag with white chain</label>
+                    </div>
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                        <label class="form-check-label" for="flexSwitchCheckChecked">Black bag with white chain</label>
+                    </div>
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                        <label class="form-check-label" for="flexSwitchCheckChecked">Pink bag with black chain</label>
+                    </div>
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                        <label class="form-check-label" for="flexSwitchCheckDefault">yellow bag with blue chain</label>
+                    </div>
+                    <div>
+                        <button class=" btn subs-btn mt-3">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact-us and another section for bonus marks -->
+        <section id="contact-us"
+            class="container moon-subs d-flex justify-content-center align-items-center mt-5 rounded-pill">
+            <div>
+                <h2>Get hot deals</h2>
+                <h6>Get updates on sales, specials deals and more</h6>
+                <input class="form-control" type="text" placeholder="Enter your valid email"
+                    aria-label=" input example">
+                <button class="btn subs-btn mt-2">Subscribe</button>
+            </div>
+        </section>
     </main>
-
-
-
-
-
+    <!-- last section  -->
+    <footer class="text-center mt-2">
+        <p>©2021. Panda Commerce. Fahim Montasir|All rights reserved.</p>
+    </footer>
 
     <!-- bootstrap js file -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
