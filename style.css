@@ -13,9 +13,18 @@ p {
 }
 h1 {
   font-size: 60px;
+  font-weight: bold;
 }
-h5 {
+.title-color {
   color:#2F4369 ;
+}
+span {
+  color: #76C27E;
+  font-size: 40px;
+}
+h2 {
+  color: #2A1E59;
+  font-weight: bold;
 }
 
 /* navbar and header */
@@ -26,14 +35,14 @@ h5 {
   background-color: #FFFFF4;
 }
 .selling-picture {
-  width: 400px;
+  width: 95%;
 }
 /* about us information */
 .about-us-info img {
   width: 100px;
 }
 @media (max-width: 600px) {
-  .info-title {
+  .info-title , .info-pic {
       display: flex;
       justify-content: center;
   }
