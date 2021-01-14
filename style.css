@@ -10,10 +10,12 @@ body {
 }
 p {
   color: gray;
-  font-size: 17px;
 }
 h1 {
   font-size: 60px;
+}
+h5 {
+  color:#2F4369 ;
 }
 
 /* navbar and header */
@@ -25,4 +27,14 @@ h1 {
 }
 .selling-picture {
   width: 400px;
+}
+/* about us information */
+.about-us-info img {
+  width: 100px;
+}
+@media (max-width: 600px) {
+  .info-title {
+      display: flex;
+      justify-content: center;
+  }
 }
