@@ -34,7 +34,7 @@ h2 {
 
 /* navbar and header */
 .logo-png {
-  width: 260px;
+  width: 320px;
 }
 
 .backpack-head {
@@ -43,6 +43,13 @@ h2 {
 
 .selling-picture {
   width: 95%;
+}
+/* navbar */
+@media (max-width: 600px) {
+
+  .logo-png {
+    width:220px;
+  }
 }
 
 /* about us information under nav */
